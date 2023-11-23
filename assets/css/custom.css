@@ -1,3 +1,10 @@
 /*
 Custom Css
 */
+.aling1 {
+    text-align: center;
+}
+
+.text-success1 {
+    color: rgb(0, 0, 0) !important;
+}

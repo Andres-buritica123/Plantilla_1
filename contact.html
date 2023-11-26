@@ -103,89 +103,41 @@ https://templatemo.com/tm-559-zay-shop
 
 
     <!-- Start Content Page -->
-    <div class="container-fluid bg-light py-5">
+    <div class="container-fluid bg-success py-5">
         <div class="col-md-6 m-auto text-center">
-            <h1 class="h1">Contact</h1>
+            <h1 class="h1 text-success"><b>Nuestra ubicación</b></h1>
             <p>
-                Proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet.
+                <b>
+                    Nos encontramos ubicados en la siguiente dirección: Dg. 61 #37c40 barrio Hermosa
+                    Provincia,Bello,Antioquia.
+                </b>
             </p>
         </div>
     </div>
-
+    <br>
     <!-- Start Map -->
-    <div id="mapid" style="width: 100%; height: 300px;"></div>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-        crossorigin=""></script>
-    <script>
-        var mymap = L.map('mapid').setView([-23.013104, -43.394365, 13], 13);
-
-        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-            maxZoom: 18,
-            attribution: 'Zay Telmplte | Template Design by <a href="https://templatemo.com/">Templatemo</a> | Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-                '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-                'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-            id: 'mapbox/streets-v11',
-            tileSize: 512,
-            zoomOffset: -1
-        }).addTo(mymap);
-
-        L.marker([-23.013104, -43.394365, 13]).addTo(mymap)
-            .bindPopup("<b>Zay</b> eCommerce Template<br />Location.").openPopup();
-
-        mymap.scrollWheelZoom.disable();
-        mymap.touchZoom.disable();
-    </script>
-    <!-- Ena Map -->
-
-    <!-- Start Contact -->
-    <div class="container py-5">
-        <div class="row py-5">
-            <form class="col-md-9 m-auto" method="post" role="form">
-                <div class="row">
-                    <div class="form-group col-md-6 mb-3">
-                        <label for="inputname">Name</label>
-                        <input type="text" class="form-control mt-1" id="name" name="name" placeholder="Name">
-                    </div>
-                    <div class="form-group col-md-6 mb-3">
-                        <label for="inputemail">Email</label>
-                        <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Email">
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <label for="inputsubject">Subject</label>
-                    <input type="text" class="form-control mt-1" id="subject" name="subject" placeholder="Subject">
-                </div>
-                <div class="mb-3">
-                    <label for="inputmessage">Message</label>
-                    <textarea class="form-control mt-1" id="message" name="message" placeholder="Message"
-                        rows="8"></textarea>
-                </div>
-                <div class="row">
-                    <div class="col text-end mt-2">
-                        <button type="submit" class="btn btn-success btn-lg px-3">Let’s Talk</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+    <div id="mapid">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.83680850718645!2d-75.5455320914556!3d6.343649447620038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442ff47cd3acf9%3A0x3d2cd0c53ed5e60c!2sLa%20mia%20neve!5e0!3m2!1ses-419!2sco!4v1701035205632!5m2!1ses-419!2sco"
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    <!-- End Contact -->
-
-
+    <!-- Ena Map -->
+    <br>
     <!-- Start Footer -->
     <footer class="bg-dark" id="tempaltemo_footer">
         <div class="container">
             <div class="row">
-    
+
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light logo">La Mia Neve</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <img width="25" height="25" src="https://img.icons8.com/office/30/marker.png"
                                 alt="marker" />
-                            <a class="text-decoration-none" href="contact.html">AV 37 BB 50 A 60</a>
-    
+                            <a class="text-decoration-none" href="contact.html">Dg. 61 #37c40, Hermosa Provincia, Bello,
+                                Antioquia</a>
+
                         </li>
                         <li>
                             <img width="25" height="25" src="https://img.icons8.com/color/48/phone.png" alt="phone" />
@@ -210,7 +162,7 @@ https://templatemo.com/tm-559-zay-shop
                         <li><a class="text-decoration-none" href="shop.html">Entre otros</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Más información</h2>
                     <ul class="list-unstyled text-light footer-link-list">
@@ -220,9 +172,9 @@ https://templatemo.com/tm-559-zay-shop
                         <li><a class="text-decoration-none" href="contact.html">Contacto</a></li>
                     </ul>
                 </div>
-    
+
             </div>
-    
+
             <div class="row text-light mb-4">
                 <div class="col-12 mb-3">
                     <div class="w-100 my-3 border-top border-light"></div>
@@ -245,7 +197,7 @@ https://templatemo.com/tm-559-zay-shop
                 </div>
             </div>
         </div>
-    
+
         <div class="w-100 bg-black py-3">
             <div class="container">
                 <div class="row pt-2">
@@ -259,7 +211,7 @@ https://templatemo.com/tm-559-zay-shop
                 </div>
             </div>
         </div>
-    
+
     </footer>
     <!-- End Footer -->
 

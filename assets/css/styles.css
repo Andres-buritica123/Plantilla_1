@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.5), rgba(17, 0, 255, 0.5));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(17, 0, 255, 0.5);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgba(17, 0, 255, 0.623);
+}
+
+#error-message {
+    margin-top: 10px;
+}
+
+#register-success-message {
+    margin-top: 10px;
+}
+
+#register-success-message-bueno {
+    margin-top: 10px;
+}

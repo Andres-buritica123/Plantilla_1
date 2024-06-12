@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="apple-touch-icon" href="assets/img/icons8-snow-96 (1).png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://img.icons8.com/nolan/96/snow.png">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    
+</head>
+<body>
+    <div class="login-container">
+        <h2>Inicio de Sesión</h2>
+        <a class="navbar-brand logo h1 align-self-center"><img width="120" height="120"
+            src="assets/img/icons8-snow-96 (1).png" alt="snow" /></a>
+        <form id="loginForm" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" onclick="validateForm()">Iniciar Sesión</button>
+        </form>
+        <div id="error-message"></div>
+        <h2>Registro</h2>
+        <form id="registerForm" onsubmit="return validateRegisterForm()">
+            <div class="form-group">
+                <label for="registerUsername">Usuario:</label>
+                <input type="text" id="registerUsername" name="registerUsername" required>
+            </div>
+            <div class="form-group">
+                <label for="registerPassword">Contraseña:</label>
+                <input type="password" id="registerPassword" name="registerPassword" required>
+            </div>
+            <button type="submit">Registrarse</button>
+        </form>
+        <div id="register-success-message"></div>
+        <div id="register-success-message-bueno"></div>
+    </div>
+    <script src="assets/js/configs.js"></script>
+</body>
+</html>
